@@ -1,0 +1,67 @@
+django==1.7.7
+psycopg2==2.4.5
+django-behave>=0.1.2
+django-suit>=0.2.11
+django-allauth==0.19.1
+django-nose==1.2
+django-selenium==0.9.7
+django-jenkins==0.16.3
+easy-thumbnails==2.2
+django-session-security==2.2.1
+mock==1.0.1
+django-taggit==0.12.3
+dj-database-url==0.3.0
+django_hstore==1.3.5
+-e git+https://github.com/mihasK/django-filter.git@support-limit_choices_to-callable#egg=django-filter
+django-polymorphic==0.6
+
+django-haystack==2.3.1
+pyelasticsearch==0.7.1
+elasticsearch==1.2.0
+-e git+https://github.com/civicresourcegroup/django-suit-alphabetfilter.git#egg=django-suit-alphabetfilter
+django-easy-select2==1.2.12
+django-taggit-autosuggest==0.2.5
+-e git+https://github.com/civicresourcegroup/django-recurrence#egg=django-recurrence
+django-money==0.5.0
+https://github.com/civicresourcegroup/data-importer/archive/1.9.9.zip
+django_globals==0.2.1
+
+-e git+https://github.com/civicresourcegroup/django-filer@split-method-directory-listing#egg=django-filer
+raven==5.1.1
+django-redactorjs==0.3.1
+django-fsm-admin==1.2.1
+django-adminplus==0.3
+django-fluent-comments==0.9.2
+django-location-field==1.5.2
+django-debug-toolbar==1.2.2
+-e git+https://github.com/kronoscode/django-disqus.git#egg=django-disqus
+django-solo==1.1.0
+django-leaflet==0.15.2
+mailchimp==2.0.9
+
+Beaker==1.6.5.post1
+python-forecastio==1.3.2
+
+# RESFRAMEWORK LIBS
+djangorestframework-gis==0.8
+djangorestframework==3.0.5
+django-rest-auth==0.3.4
+-e git://github.com/marcgibbons/django-rest-swagger.git@0.2.9#egg=django-rest-swagger
+djangorestframework-xml==1.0.1
+####################
+
+celery==3.1.17
+django-celery==3.1.16
+django-kombu==0.9.4
+
+lxml==3.4.2
+boto==2.38.0
+django-storages==1.1.8
+BeautifulSoup==3.2.1
+
+django-mptt-admin==0.2.1
+requests==2.7.0
+requests-oauthlib==0.5.0
+
+django-localflavor==1.1
+django-neighborhoods==2.0.1
