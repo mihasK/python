@@ -1,6 +1,6 @@
 FROM mihas/civic-deps
 
-RUN apt-get install -y python-psycopg2
+RUN apt-get install -y libpq-dev python-psycopg2
 
 ADD ./requirements.txt .
 RUN pip install -r requirements.txt
