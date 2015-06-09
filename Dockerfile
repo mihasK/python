@@ -17,6 +17,8 @@ EXPOSE 22
 
 CMD    ["/usr/sbin/sshd", "-D"]
 
+RUN apt-get update -qqy \
+  && apt-get -qqy install build-essential wget unzip curl xvfb xz-utils zlib1g-dev libssl-dev
 
 #===============
 # Google Chrome
