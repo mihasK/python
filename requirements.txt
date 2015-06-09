@@ -1,4 +1,4 @@
-django==1.8
+django==1.7.7
 psycopg2==2.4.5
 django-behave>=0.1.2
 django-suit>=0.2.11
