@@ -18,16 +18,16 @@ defusedxml==0.4.1
 dj-database-url==0.3.0
 django-adminplus==0.3
 django-allauth==0.19.1
--e git+https://github.com/civicresourcegroup/django-suit-alphabetfilter.git@dc6be9c135e6ff38f92ab813434e872789adbfab#egg=django_alphafilter-master
+-e git+https://github.com/civicresourcegroup/django-suit-alphabetfilter.git#egg=django-suit-alphabetfilter
 django-behave==0.1.5
 django-celery==3.1.16
 django-contrib-comments==1.6.1
 django-crispy-forms==1.4.0
 django-debug-toolbar==1.2.2
--e git+https://github.com/kronoscode/django-disqus.git@afcf059bc302d5093fb6cbe10fc15d358784f48c#egg=django_disqus-master
+-e git+https://github.com/kronoscode/django-disqus.git#egg=django-disqus
 django-easy-select2==1.2.12
--e git+https://github.com/civicresourcegroup/django-filer@9e131593e9aedb74cbf63963ec366dd0fe129f27#egg=django_filer-origin/sp
--e git+https://github.com/mihasK/django-filter.git@3945b13ddcfdfa0f533e5d6fa886926416b5982f#egg=django_filter-origin/support-limit_choices_to-callable
+-e git+https://github.com/civicresourcegroup/django-filer@sp#egg=django-filer
+-e git+https://github.com/mihasK/django-filter.git@support-limit_choices_to-callable#egg=django-filter
 django-fluent-comments==1.0.2
 django-fsm==2.2.1
 django-fsm-admin==1.2.1
@@ -39,16 +39,16 @@ django-kombu==0.9.4
 django-leaflet==0.15.2
 django-localflavor==1.1
 django-location-field==1.5.2
--e git+https://github.com/django-money/django-money@81069d268ebd9de9c80dafac1fdcbabfa2b9143e#egg=django_money-master
+-e git+https://github.com/django-money/django-money@81069d268ebd9de9c80dafac1fdcbabfa2b9143e#egg=django-money
 django-mptt==0.7.4
 django-mptt-admin==0.2.1
 django-neighborhoods==2.0.1
 django-nose==1.4
 django-polymorphic==0.7.1
--e git+https://github.com/civicresourcegroup/django-recurrence@185dab963bc361b4c6f0223adae5cbee905caf79#egg=django_recurrence-master
+-e git+https://github.com/civicresourcegroup/django-recurrence#egg=django-recurrence
 django-redactorjs==0.3.1
 django-rest-auth==0.3.4
--e git://github.com/marcgibbons/django-rest-swagger.git@f848bd5c4b19284fbf3193612e56c2fc09695b3e#egg=django_rest_swagger-0.2.9
+-e git://github.com/marcgibbons/django-rest-swagger.git@0.2.9#egg=django-rest-swagger
 django-selenium==0.9.7
 django-session-security==2.2.1
 django-solo==1.1.0
