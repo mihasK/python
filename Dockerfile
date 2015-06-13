@@ -1,5 +1,5 @@
 FROM mihas/civic-deps
-
+RUN apt-get update
 RUN apt-get install -y libpq-dev python-psycopg2 python-virtualenv
 
 ADD ./requirements.txt .
