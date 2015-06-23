@@ -5,6 +5,9 @@ RUN apt-get install -y libpq-dev python-psycopg2 python-virtualenv
 ADD ./requirements.txt .
 RUN pip install -r requirements.txt
 
+#=====================================
+# SSH
+#=====================================
 RUN apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
 
@@ -17,8 +20,10 @@ EXPOSE 22
 
 CMD    ["/usr/sbin/sshd", "-D"]
 
+#=====================================
+
 RUN apt-get update -qqy \
-  && apt-get -qqy install build-essential wget unzip curl xvfb xz-utils zlib1g-dev libssl-dev
+  && apt-get -qqy install build-essential wget unzip curl xvfb xz-utils zlib1g-dev libssl-dev vim
 
 #===============
 # Google Chrome
