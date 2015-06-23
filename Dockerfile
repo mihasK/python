@@ -2,8 +2,12 @@ FROM mihas/civic-deps
 RUN apt-get update
 RUN apt-get install -y libpq-dev python-psycopg2 python-virtualenv
 
+#=================================
+# Python PIP packages
 ADD ./requirements.txt .
-RUN pip install -r requirements.txt
+RUN easy_install pip==7.0.3 && pip install -r requirements.txt
+#=================================
+
 
 #=====================================
 # SSH
