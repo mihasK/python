@@ -55,3 +55,5 @@ RUN wget --no-verbose -O /tmp/chromedriver_linux64.zip http://chromedriver.stora
 
     
 EXPOSE 8000
+
+RUN mkdir /var/log/civic && chmod -R 777 /var/log/civic
