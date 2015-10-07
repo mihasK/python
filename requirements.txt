@@ -1,34 +1,33 @@
+Beaker==1.6.5.post1
+BeautifulSoup==3.2.1
+Django==1.8.2
+Pillow==2.8.2
+PyYAML==3.11
+Pygments==2.0.2
+Unidecode==0.04.17
 akismet==0.2.0
 amqp==1.4.6
 anyjson==0.3.3
-astroid==1.3.6
-Beaker==1.6.5.post1
-BeautifulSoup==3.2.1
-beautifulsoup4==4.4.0
+argparse==1.2.1
 behave==1.2.5
 billiard==3.3.0.20
 boto==2.38.0
 celery==3.1.18
-chardet==2.0.1
-colorama==0.2.5
-coverage==3.7.1
-data-importer==1.9.9
+https://github.com/civicresourcegroup/data-importer/archive/1.9.9.zip
 defusedxml==0.4.1
 dj-database-url==0.3.0
-Django==1.8.2
 django-adminplus==0.3
 django-allauth==0.19.1
--e git+https://github.com/civicresourcegroup/django-suit-alphabetfilter.git@dc6be9c135e6ff38f92ab813434e872789adbfab#egg=django_alphafilter-master
+-e git+https://github.com/civicresourcegroup/django-suit-alphabetfilter.git#egg=django-suit-alphabetfilter
 django-behave==0.1.5
 django-celery==3.1.16
 django-contrib-comments==1.6.1
-django-coverage==1.2.4
 django-crispy-forms==1.4.0
 django-debug-toolbar==1.2.2
--e git+https://github.com/kronoscode/django-disqus.git@afcf059bc302d5093fb6cbe10fc15d358784f48c#egg=django_disqus-master
+-e git+https://github.com/kronoscode/django-disqus.git#egg=django-disqus
 django-easy-select2==1.2.12
--e git+https://github.com/civicresourcegroup/django-filer@9e131593e9aedb74cbf63963ec366dd0fe129f27#egg=django_filer-origin_sp
--e git+https://github.com/mihasK/django-filter.git@3945b13ddcfdfa0f533e5d6fa886926416b5982f#egg=django_filter-origin_support-limit_choices_to-callable
+-e git+https://github.com/civicresourcegroup/django-filer@sp#egg=django-filer
+-e git+https://github.com/mihasK/django-filter.git@support-limit_choices_to-callable#egg=django-filter
 django-fluent-comments==1.0.2
 django-fsm==2.2.1
 django-fsm-admin==1.2.1
@@ -40,16 +39,16 @@ django-kombu==0.9.4
 django-leaflet==0.15.2
 django-localflavor==1.1
 django-location-field==1.5.2
--e git+https://github.com/django-money/django-money@81069d268ebd9de9c80dafac1fdcbabfa2b9143e#egg=django_money-dev
+-e git+https://github.com/django-money/django-money@81069d268ebd9de9c80dafac1fdcbabfa2b9143e#egg=django-money
 django-mptt==0.7.4
 django-mptt-admin==0.2.1
 django-neighborhoods==2.0.1
 django-nose==1.4
 django-polymorphic==0.7.1
--e git+https://github.com/civicresourcegroup/django-recurrence@185dab963bc361b4c6f0223adae5cbee905caf79#egg=django_recurrence-master
+-e git+https://github.com/civicresourcegroup/django-recurrence#egg=django-recurrence
 django-redactorjs==0.3.1
 django-rest-auth==0.3.4
--e git://github.com/marcgibbons/django-rest-swagger.git@f848bd5c4b19284fbf3193612e56c2fc09695b3e#egg=django_rest_swagger-0.2.9
+-e git://github.com/marcgibbons/django-rest-swagger.git@0.2.9#egg=django-rest-swagger
 django-selenium==0.9.7
 django-session-security==2.2.1
 django-solo==1.1.0
@@ -57,50 +56,32 @@ django-storages==1.1.8
 django-suit==0.2.13
 django-taggit==0.14.0
 django-taggit-autosuggest==0.2.7
-django-webtest==1.7.8
 djangorestframework==3.0.5
 djangorestframework-gis==0.8
 djangorestframework-xml==1.0.1
 docopt==0.4.0
 easy-thumbnails==2.2
-ecdsa==0.13
 elasticsearch==1.2.0
 enum34==1.0.4
-Fabric==1.10.1
-GDAL==1.10.1
-gunicorn==19.3.0
-html5lib==0.999
 ipython==3.1.0
 jdcal==1.0
 kombu==3.0.26
-logilab-common==0.63.2
 lxml==3.4.2
 mailchimp==2.0.9
-meld3==0.6.10
 mock==1.0.1
-model-mommy==1.2.5
 nose==1.3.7
-numpy==1.8.2
 oauthlib==0.7.2
 openpyxl==2.1.1
-paramiko==1.15.2
 parse==1.6.6
 parse-type==0.3.4
-pep8==1.6.2
-Pillow==2.8.2
-pip-tools==0.3.6
 psycopg2==2.4.5
 pudb==2015.3
 py-moneyed==0.5.0
-pycrypto==2.6.1
 pyelasticsearch==0.7.1
-Pygments==2.0.2
-pylint==1.4.3
 python-dateutil==2.4.2
 python-forecastio==1.3.2
 python-openid==2.2.5
 pytz==2015.4
-PyYAML==3.11
 raven==5.1.1
 requests==2.7.0
 requests-oauthlib==0.5.0
@@ -108,15 +89,14 @@ selenium==2.46.0
 simplejson==3.7.3
 six==1.9.0
 sqlparse==0.1.15
-ssh-import-id==3.21
-supervisor==3.0b2
-Unidecode==0.4.17
 urllib3==1.10.4
 urwid==1.3.0
-virtualenv==1.11.4
-waitress==0.8.9
-WebOb==1.4.1
-WebTest==2.0.18
-wheel==0.24.0
+wsgiref==0.1.2
 xlrd==0.9.3
 xvfbwrapper==0.2.4
+
+WebTest==2.0.18
+django-webtest==1.7.8
+
+coverage==3.7.1
+django-coverage==1.2.4
