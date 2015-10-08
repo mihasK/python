@@ -39,7 +39,7 @@ RUN apt-get update -qqy \
 #  && rm /etc/apt/sources.list.d/google-chrome.list \
 #  && rm -rf /var/lib/apt/lists/*
 
-RUN wget --no-verbose -O http://mirror.pcbeta.com/google/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_43.0.2357.134-1_amd64.deb \
+RUN wget http://mirror.pcbeta.com/google/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_43.0.2357.134-1_amd64.deb \
   && dpkg -i google-chrome-stable_43.0.2357.134-1_amd64.deb \
   && rm google-chrome-stable_43.0.2357.134-1_amd64.deb
   
