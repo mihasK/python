@@ -7,10 +7,10 @@ RUN apt-get update && apt-get -y install \
   python-gdal \
   libxml2-dev libxslt1-dev \
   libpq-dev \
-  python-psycopg2 \
   python-virtualenv \
   python-dev \
-  python-setuptools
+  python-setuptools \
+  python-pip
   
 RUN easy_install pip==7.1.2 && pip install ipython pudb
 
