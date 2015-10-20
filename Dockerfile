@@ -1,11 +1,23 @@
-FROM mihas/civic-deps
-RUN apt-get update
-RUN apt-get install -y libpq-dev python-psycopg2 python-virtualenv
+FROM debian:jessie                                                                                                                                                   
+
+RUN apt-get update && apt-get -y install \
+  python-pil \
+  git \
+  gdal-bin \
+  python-gdal \
+  libxml2-dev libxslt1-dev \
+  libpq-dev \
+  python-psycopg2 \
+  python-virtualenv \
+  python-dev \
+  python-setuptools
+  
+RUN easy_install pip==7.1.2 && pip install ipython pudb
 
 #=================================
 # Python PIP packages
 ADD ./requirements.txt .
-RUN easy_install pip==7.1.2 && pip install -r requirements.txt && pip install pep8
+RUN pip install -r requirements.txt
 #=================================
 
 
