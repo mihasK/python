@@ -1,4 +1,4 @@
-FROM debian:jessie                                                                                                                                                   
+FROM mihas/civic-baseimage                                                                                                                                                  
 
 RUN apt-get update && apt-get -y install \
   python-pil \
