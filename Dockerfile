@@ -7,6 +7,7 @@ RUN apt-get update && apt-get -y install \
   python-gdal \
   libxml2-dev libxslt1-dev \
   libpq-dev \
+  libjpeg-dev \
   python-virtualenv \
   python-dev \
   python-setuptools \
