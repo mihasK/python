@@ -15,7 +15,7 @@ coverage==3.7.1
 https://github.com/civicresourcegroup/data-importer/archive/1.9.9.zip
 defusedxml==0.4.1
 dj-database-url==0.3.0
-Django==1.8.2
+Django==1.11.28
 django-adminplus==0.3
 django-allauth==0.19.1
 -e git+https://github.com/civicresourcegroup/django-suit-alphabetfilter.git@dc6be9c135e6ff38f92ab813434e872789adbfab#egg=django_alphafilter-master
