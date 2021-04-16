@@ -24,7 +24,7 @@ django-celery==3.1.16
 django-contrib-comments==1.6.1
 django-coverage==1.2.4
 django-crispy-forms==1.4.0
-django-debug-toolbar==1.2.2
+django-debug-toolbar==1.11.1
 -e git+https://github.com/kronoscode/django-disqus.git@afcf059bc302d5093fb6cbe10fc15d358784f48c#egg=django_disqus-master
 django-easy-select2==1.2.12
 -e git+https://github.com/civicresourcegroup/django-filer@9e131593e9aedb74cbf63963ec366dd0fe129f27#egg=django_filer-origin_sp
