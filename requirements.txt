@@ -70,7 +70,7 @@ Fabric==1.10.1
 GDAL==1.10.1
 gunicorn==19.3.0
 html5lib==0.999
-ipython==3.1.0
+ipython==7.16.3
 jdcal==1.0
 kombu==3.0.26
 logilab-common==0.63.2
