@@ -87,7 +87,7 @@ paramiko==1.15.2
 parse==1.6.6
 parse-type==0.3.4
 pep8==1.6.2
-Pillow==2.8.2
+Pillow==9.3.0
 pip-tools==0.3.6
 psycopg2==2.4.5
 pudb==2015.3
