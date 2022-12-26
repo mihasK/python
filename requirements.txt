@@ -117,6 +117,6 @@ virtualenv==1.11.4
 waitress==0.8.9
 WebOb==1.4.1
 WebTest==2.0.18
-wheel==0.24.0
+wheel==0.38.1
 xlrd==0.9.3
 xvfbwrapper==0.2.4
